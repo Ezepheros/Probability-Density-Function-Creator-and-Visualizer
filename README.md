@@ -45,6 +45,7 @@ Generated 200 random values
 - I think I would like to connect the ProbabilityMassFunction class and the BarChart class because the way they're
   implemented, they are quite connected. So I would probably do it by creating an association where 
   ProbabilityMassFunction contains a List<BarChart> and passes its list of probability pairs/mappings to the BarCharts
-  to change them.
+  to change them. I would also use the observer pattern because every time the PMF changes, the bar chart changes so the pmf would be an observable while the barchart
+  would be an observer.
 
 
