@@ -1,7 +1,7 @@
 # Probability Density Function Creator and Visualizer
 
 ## Project Overview
-This application will allow a user to create their own **probability mass function**(*pmf*). After creating their *pmf*, users will be able to generate random numbers which follow their *pmf*. Later on, they will be able to draw their own pmf and generate points with their *pmfs*. Statistics enthusiasts, students and researchers may want to use this tool to visualize typical results from custom probability distributions. It can also be used by someone who wants to make a decision with an abnormal *pmf* to generate random numbers.I am personally interested in this type of tool because I am a stats enthusiast and I like playing around with probability related stuff to observe variance and typical behaviours. I am also interested in Machine Learning as a field and that uses a lot of statistics related methods.
+This application will allow a user to create their own **probability mass function**(*pmf*). After creating their *pmf*, users will be able to generate random numbers which follow their *pmf*. Later on, they will be able to draw their own pmf and generate points with their *pmfs*. Statistics enthusiasts, students and researchers may want to use this tool to visualize typical results from custom probability distributions. It can also be used by someone who wants to make a decision with an abnormal *pmf* to generate random numbers.
 
 ## User Stories
 - As a user I want to be able to assign probabilities to certain numeric values and add those pairs to a *pmf*
@@ -39,13 +39,6 @@ Fri Nov 26 10:56:49 PST 2021
 Generated 200 random values
 ```
 
-## Phase 4: Task 3
-- I would remove the ProbabilityPair class and use a HashMap<Double,Double> in pmf instead of List<ProbabilityPair>
-  because ProbabilityPair is acting like a map
-- I think I would like to connect the ProbabilityMassFunction class and the BarChart class because the way they're
-  implemented, they are quite connected. So I would probably do it by creating an association where 
-  ProbabilityMassFunction contains a List<BarChart> and passes its list of probability pairs/mappings to the BarCharts
-  to change them. I would also use the observer pattern because every time the PMF changes, the bar chart changes so the pmf would be an observable while the barchart
-  would be an observer.
+# Console application was developed first and then a gui was added later
 
 
