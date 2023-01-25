@@ -3,15 +3,11 @@
 ## Project Overview
 This application will allow a user to create their own **probability mass function**(*pmf*). After creating their *pmf*, users will be able to generate random numbers which follow their *pmf*. Later on, they will be able to draw their own pmf and generate points with their *pmfs*. Statistics enthusiasts, students and researchers may want to use this tool to visualize typical results from custom probability distributions. It can also be used by someone who wants to make a decision with an abnormal *pmf* to generate random numbers.
 
-## User Stories
-- As a user I want to be able to assign probabilities to certain numeric values and add those pairs to a *pmf*
-- As a user I want to generate random numbers which follow the *pmf* that I created
-- As a user I want to generate random numbers using odds as well as probabilities
-- As a user I want to be able to delete entries in my *pmf*
-
-## Additional User Stories
-- As a user I want to be able to save all the *pmfs* that I have made
-- As a user I want to be able to load the *pmfs* that I have made and be able to generate random numbers from them
+## Functionality
+- Can assign probabilities to certain numeric values and add those pairs to a *pmf*
+- Can generate random numbers which follow the *pmf* that you created
+- Can generate random numbers using odds as well as probabilities
+- Can save, load and delete *pmfs*
 
 ## EventLog Sample:
 ```
@@ -39,6 +35,6 @@ Fri Nov 26 10:56:49 PST 2021
 Generated 200 random values
 ```
 
-# Console application was developed first and then a gui was added later
+**_NOTE:_** Console application was developed first and then a gui was added later
 
 
