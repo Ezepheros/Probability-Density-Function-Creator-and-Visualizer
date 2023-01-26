@@ -37,4 +37,4 @@ Generated 200 random values
 
 **_NOTE:_** Console application was developed first and then a gui was added later
 
-
+By Ethan Zhao
